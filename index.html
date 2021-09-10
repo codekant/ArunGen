@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arun Generator</title>
+    <link rel="stylesheet" href="static/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="static/static.css">
+    <script src="static/jquery.min.js"></script>
+    <script src="static/client.js"></script>
+    <script src="static/h2c.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 style="margin-bottom: 0;">Arun Generator</h1>
+        <p style="margin-top: 0;">Make Arun say anything you want!!</p>
+        <div class="teams" id="teams">
+            <div class="message">
+                <div class="img">
+                    <img class="avatar" src="static/42x42.jpg" draggable="false">
+                    <i class="fas fa-check-circle online"></i>
+                </div>
+                <div class="actualmessage">
+                    <div class="info">
+                        <p class="username inline" style="font-weight: bold; font-size: 13px;">Arun Nair</p>
+                        <p class="time inline" id="time">00:00</p>
+                    </div>
+                    <p class="message" id="message">you all are my little cupcakes!</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="settings">
+            <textarea class="input" id="settings_text" title="Message" placeholder="you all are my little cupcakes!" maxlength="4000"></textarea><br>
+            <button class="btn" style="background-color: transparent; color: #fff; font-size: 24px; margin-top: .3rem;" id="settings_theme" title="Theme"><i class="fas fa-sun"></i></button>
+        </div>
+    </div>
+</body>
+</html>
