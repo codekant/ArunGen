@@ -1,4 +1,5 @@
 window.onload = function() {
+    document.body.style.zoom = "110%";
     $(".container").fadeIn();
     /* Theme */
     let theme = "light";
