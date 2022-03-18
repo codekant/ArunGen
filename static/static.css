@@ -1,14 +1,13 @@
 @font-face {
     font-family: "Segoe UI";
-    src: url(segoeui.ttf);
+    src: url(segoeui.woff2);
 }
 @font-face {
     font-family: "Apple Color Emoji";
     src: url(applece.ttf);
 }
 :root {
-    --font-family: "Segoe UI", system-ui, "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
-    --font-family-info: "Segoe UI Light", system-ui;
+    --font-family: "Segoe UI", system-ui, "Apple Color Emoji", sans-serif;
     /* Dark Theme */
     --dark-background: #1f1f1f;
     --dark-text: #ffffff;
@@ -88,6 +87,7 @@ body {
     border-radius: 5px;
     max-width: 70%;
     word-wrap: break-word;
+    line-height: 20px;
 }
 .teams .message .actualmessage .message {
     margin-top: 0;
@@ -102,7 +102,6 @@ body {
     color: var(--message-time);
 }
 .teams .message .actualmessage .info .time {
-    font-family: var(--font-family-info);
     color: var(--message-time);
     margin-left: .7rem;
 }
